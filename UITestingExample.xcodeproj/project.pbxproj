@@ -13,7 +13,21 @@
 		A25E0D24281BBFC000760F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25E0D22281BBFC000760F69 /* Main.storyboard */; };
 		A25E0D26281BBFCB00760F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25E0D25281BBFCB00760F69 /* Assets.xcassets */; };
 		A25E0D29281BBFCB00760F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25E0D27281BBFCB00760F69 /* LaunchScreen.storyboard */; };
+		A25E0D31281BDCB700760F69 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25E0D30281BDCB700760F69 /* SecondViewController.swift */; };
+		A25E0D39281BE0E100760F69 /* UITestingExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25E0D38281BE0E100760F69 /* UITestingExampleUITests.swift */; };
+		A25E0D3B281BE0E100760F69 /* UITestingExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25E0D3A281BE0E100760F69 /* UITestingExampleUITestsLaunchTests.swift */; };
+		A25E0D42281BE1D100760F69 /* LoginUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25E0D41281BE1D100760F69 /* LoginUITest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A25E0D3C281BE0E100760F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25E0D11281BBFBF00760F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A25E0D18281BBFC000760F69;
+			remoteInfo = UITestingExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A25E0D19281BBFC000760F69 /* UITestingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +38,22 @@
 		A25E0D25281BBFCB00760F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A25E0D28281BBFCB00760F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A25E0D2A281BBFCB00760F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25E0D30281BDCB700760F69 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A25E0D36281BE0E100760F69 /* UITestingExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestingExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25E0D38281BE0E100760F69 /* UITestingExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleUITests.swift; sourceTree = "<group>"; };
+		A25E0D3A281BE0E100760F69 /* UITestingExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A25E0D41281BE1D100760F69 /* LoginUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A25E0D16281BBFC000760F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25E0D33281BE0E100760F69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				A25E0D1B281BBFC000760F69 /* UITestingExample */,
+				A25E0D37281BE0E100760F69 /* UITestingExampleUITests */,
 				A25E0D1A281BBFC000760F69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				A25E0D19281BBFC000760F69 /* UITestingExample.app */,
+				A25E0D36281BE0E100760F69 /* UITestingExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +87,23 @@
 				A25E0D1C281BBFC000760F69 /* AppDelegate.swift */,
 				A25E0D1E281BBFC000760F69 /* SceneDelegate.swift */,
 				A25E0D20281BBFC000760F69 /* ViewController.swift */,
+				A25E0D30281BDCB700760F69 /* SecondViewController.swift */,
 				A25E0D22281BBFC000760F69 /* Main.storyboard */,
 				A25E0D25281BBFCB00760F69 /* Assets.xcassets */,
 				A25E0D27281BBFCB00760F69 /* LaunchScreen.storyboard */,
 				A25E0D2A281BBFCB00760F69 /* Info.plist */,
 			);
 			path = UITestingExample;
+			sourceTree = "<group>";
+		};
+		A25E0D37281BE0E100760F69 /* UITestingExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A25E0D38281BE0E100760F69 /* UITestingExampleUITests.swift */,
+				A25E0D3A281BE0E100760F69 /* UITestingExampleUITestsLaunchTests.swift */,
+				A25E0D41281BE1D100760F69 /* LoginUITest.swift */,
+			);
+			path = UITestingExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +126,24 @@
 			productReference = A25E0D19281BBFC000760F69 /* UITestingExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A25E0D35281BE0E100760F69 /* UITestingExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25E0D3E281BE0E100760F69 /* Build configuration list for PBXNativeTarget "UITestingExampleUITests" */;
+			buildPhases = (
+				A25E0D32281BE0E100760F69 /* Sources */,
+				A25E0D33281BE0E100760F69 /* Frameworks */,
+				A25E0D34281BE0E100760F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A25E0D3D281BE0E100760F69 /* PBXTargetDependency */,
+			);
+			name = UITestingExampleUITests;
+			productName = UITestingExampleUITests;
+			productReference = A25E0D36281BE0E100760F69 /* UITestingExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +156,10 @@
 				TargetAttributes = {
 					A25E0D18281BBFC000760F69 = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					A25E0D35281BE0E100760F69 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A25E0D18281BBFC000760F69;
 					};
 				};
 			};
@@ -116,6 +177,7 @@
 			projectRoot = "";
 			targets = (
 				A25E0D18281BBFC000760F69 /* UITestingExample */,
+				A25E0D35281BE0E100760F69 /* UITestingExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +193,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A25E0D34281BE0E100760F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +207,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25E0D31281BDCB700760F69 /* SecondViewController.swift in Sources */,
 				A25E0D21281BBFC000760F69 /* ViewController.swift in Sources */,
 				A25E0D1D281BBFC000760F69 /* AppDelegate.swift in Sources */,
 				A25E0D1F281BBFC000760F69 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A25E0D32281BE0E100760F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25E0D3B281BE0E100760F69 /* UITestingExampleUITestsLaunchTests.swift in Sources */,
+				A25E0D42281BE1D100760F69 /* LoginUITest.swift in Sources */,
+				A25E0D39281BE0E100760F69 /* UITestingExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A25E0D3D281BE0E100760F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A25E0D18281BBFC000760F69 /* UITestingExample */;
+			targetProxy = A25E0D3C281BE0E100760F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A25E0D22281BBFC000760F69 /* Main.storyboard */ = {
@@ -303,7 +391,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +418,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A25E0D3F281BE0E100760F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.UITestingExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITestingExample;
+			};
+			name = Debug;
+		};
+		A25E0D40281BE0E100760F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.UITestingExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITestingExample;
 			};
 			name = Release;
 		};
@@ -351,6 +471,15 @@
 			buildConfigurations = (
 				A25E0D2E281BBFCB00760F69 /* Debug */,
 				A25E0D2F281BBFCB00760F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25E0D3E281BE0E100760F69 /* Build configuration list for PBXNativeTarget "UITestingExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25E0D3F281BE0E100760F69 /* Debug */,
+				A25E0D40281BE0E100760F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
